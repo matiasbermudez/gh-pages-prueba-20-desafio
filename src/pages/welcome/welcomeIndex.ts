@@ -1,3 +1,8 @@
+import { botonAzulInit } from "../../components/boton-azul";
+import { botonesPptInit } from "../../components/botones-ppt";
+import { textContentInit } from "../../components/text-content";
+import { state } from "../../state";
+
 export function welcomeInit(params) {
     const divEl = document.createElement('div');
     divEl.innerHTML = `
